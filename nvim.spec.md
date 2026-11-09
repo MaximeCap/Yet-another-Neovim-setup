@@ -78,3 +78,14 @@
     - Matching brackets flash briefly (`showmatch` **on**, `matchtime` **2**)
     -  Diagonal `/` fill in empty diff area
     - `title` **on**
+
+### 1.4 Search, files, undo
+
+- `ignorecase` + `smartcase` **on**
+- `path` adds  **on**, `:find` searches subfolders
+- `:` completion `wildmode` is `ongest:full`, `full`, `wildignore` skips `*/node_modules/*`, `*.o`, `*.obj`, `*.class`, `*.jar`
+    - `swapfile` and `writebackup` **off**. Persistent undo lives in `~/.cache/nvim/undodir`
+- Undo survives closing the file. Swap files onl get in the way
+- Snappier timing: `updatetime` **300**, `timeoutlen` **500**, `ttimeoutlen` **0**
+
+
