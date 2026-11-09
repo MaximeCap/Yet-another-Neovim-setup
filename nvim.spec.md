@@ -63,3 +63,18 @@
 - Indent is **2 spaces**: `tabstop`, `shiftwidth` and softabstop` are all **2**.
 - `-` counts as part of a word, so `foo-bar` is one word.
     - Fits CSS classes and kebab-case names
+
+### 1.3 Look of the buffer
+
+
+- **Hybrid** line numbers: `number` + `relativenumber` **on**
+- `cursorline` **on**. No wrap, `scrolloff` **10**,m `sidescrolloff` **8**
+- `signcolumn` always **on**
+    - Text doesn't jump when git or diagnostc marks appear
+    - `cmdheight` **0** and one globa statusline (`laststatus` **3**)
+    - Maxmises vertical space
+    - **rounded** borders on every float `winborder`
+    - Popup menu: at most **10** rows, slightly see-through `pumheight` **10** `pumbled` **10**
+    - Matching brackets flash briefly (`showmatch` **on**, `matchtime` **2**)
+    -  Diagonal `/` fill in empty diff area
+    - `title` **on**
