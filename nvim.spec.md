@@ -55,3 +55,11 @@
             - `keymaps.lua`: every keymap that uses a plugin, required last so all plugins are set up first. Group files hold no keymaps
         - Lua files are indented with tabs, formatted by stylua with its defaults
 
+### 1.2 Leader and basics
+
+- Leader and local leader are **space**
+- Mouse is **off**
+- Clipboard should copy to system clipboard
+- Indent is **2 spaces**: `tabstop`, `shiftwidth` and softabstop` are all **2**.
+- `-` counts as part of a word, so `foo-bar` is one word.
+    - Fits CSS classes and kebab-case names
