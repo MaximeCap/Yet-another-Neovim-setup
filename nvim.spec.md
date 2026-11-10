@@ -105,3 +105,20 @@
       It expands over the bottom of the screenm until the next day, and `Enter` moves it into the pager
     - tiny-cmdline.nvim shows the `:` command line as a float bocx centered left to right, **20%** from the top. It's setup in `plugins/ui.lua`
         - With `cmdheight`0 the command line needs somewhere to appear and near the top is where the eyes already are
+
+### 1.7 Autocmds
+
+- Yank should be visible
+
+### 1.8 Core keymaps
+
+`x` -> Delete without copying
+d, c and p prefixed by <leader> -> delete, change, paste without changing the yank register
+`+` / `-` -> increment and decrement numbers
+`<C-a>` -> Selected all
+`te` -> Open a new tab
+`Tab` and `Shift tab` -> cycle tabs
+`ss` and `sv` -> Split
+`sh`, `sj`, `sk`, `sl` -> Move between windows
+
+
