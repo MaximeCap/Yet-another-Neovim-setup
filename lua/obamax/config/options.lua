@@ -53,3 +53,10 @@ opt.undodir = vim.fn.stdpath("cache") .. "/undodir"
 opt.updatetime = 300
 opt.timeoutlen = 500
 opt.ttimeoutlen = 0
+
+opt.splitright = true
+opt.splitbelow = true
+
+opt.foldmethod = "expr"
+opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+opt.foldlevel = 99

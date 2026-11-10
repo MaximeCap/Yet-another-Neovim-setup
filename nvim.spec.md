@@ -88,4 +88,9 @@
 - Undo survives closing the file. Swap files onl get in the way
 - Snappier timing: `updatetime` **300**, `timeoutlen` **500**, `ttimeoutlen` **0**
 
+### 1.5 Splits and folds
+
+- Splits should be created on the right and below the current buffer
+- Folds come from `tree-sitter` with `foldlevel` **99**
+    - Folds are all open by default  and still can be closed by syntax
 
