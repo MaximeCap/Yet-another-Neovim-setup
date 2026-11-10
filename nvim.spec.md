@@ -94,3 +94,14 @@
 - Folds come from `tree-sitter` with `foldlevel` **99**
     - Folds are all open by default  and still can be closed by syntax
 
+### 1.6 Messages
+
+- Neovim 0.12's experimental ui2 handles messages. Turn it on at the end of `config/options.lua`
+    - Short messagea: corner popup up to **30%** of the screen
+        - Make it disappear after **5s**
+    - Long output (errors, listings like `:ls`, `:verbose`, sheel commands and their output, progress): a scrollable pager up to **half** the screenm
+    - Search count, search pattern, completion, `:` completion list and confirm prompt stay in the command line
+    - Output of a command I type goes tyo the command line too,  whatever its kind.
+      It expands over the bottom of the screenm until the next day, and `Enter` moves it into the pager
+    - tiny-cmdline.nvim shows the `:` command line as a float bocx centered left to right, **20%** from the top. It's setup in `plugins/ui.lua`
+        - With `cmdheight`0 the command line needs somewhere to appear and near the top is where the eyes already are
