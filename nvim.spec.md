@@ -119,7 +119,7 @@ d, c and p prefixed by <leader> -> delete, change, paste without changing the ya
 `te` -> Open a new tab
 `Tab` and `Shift tab` -> cycle tabs
 `ss` and `sv` -> Split
-`sh`, `sj`, `sk`, `sl` -> Move between windows
+`<C-h>`, `<C-j>`, `<C-k>`, `<C-l>` -> Move between windows
 `jk` on insert mode for quickly get back to normal mode
 in terminal mode, `<C-x`> exit the terminal and get back to normal mode
 in visual mode, J and K move the selection up and down

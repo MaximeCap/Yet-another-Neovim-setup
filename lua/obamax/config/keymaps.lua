@@ -21,10 +21,10 @@ map("n", "<S-Tab>", "<Cmd>tabprevious<CR>", { desc = "Previous tab" })
 -- Windows
 map("n", "ss", "<Cmd>split<CR>", { desc = "Split below" })
 map("n", "sv", "<Cmd>vsplit<CR>", { desc = "Split right" })
-map("n", "sh", "<C-w>h", { desc = "Go to left window" })
-map("n", "sj", "<C-w>j", { desc = "Go to lower window" })
-map("n", "sk", "<C-w>k", { desc = "Go to upper window" })
-map("n", "sl", "<C-w>l", { desc = "Go to right window" })
+map("n", "<C-h>", "<C-w>h", { desc = "Go to left window" })
+map("n", "<C-j>", "<C-w>j", { desc = "Go to lower window" })
+map("n", "<C-k>", "<C-w>k", { desc = "Go to upper window" })
+map("n", "<C-l>", "<C-w>l", { desc = "Go to right window" })
 
 -- Modes
 map("i", "jk", "<Esc>", { desc = "Exit insert mode" })
