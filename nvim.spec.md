@@ -256,3 +256,21 @@ local tools = {
 
 
 - Every server get file-rename support (`didRename`/`willRename`)
+
+### 5.2 Diagnostic looks
+
+- Underlined, not updated while typing, sorted by severity
+- Inline text `● messages` with the source only when there are several
+- Gutter icons come from the shared icon set
+
+### 5.3 Per-server settings
+
+- Per server settings live in `after/lsp/<name>.lua`
+    - Neovim 0.12 merges automatically, so there's no setup boilerplate
+
+### 5.4 Completion
+- `Blink.cmp` version `^1`
+- Every language from 5.1 get also blink.cmp's capabilities
+- Auto-brackets after functions. Docs popup after **200ms**
+- Menu items are colorized by Treesitter with kind icons from the shared icon set
+- In the command line, the menu open by itself for `:` commands only, with nothing preselected
