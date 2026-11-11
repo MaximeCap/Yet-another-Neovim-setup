@@ -151,3 +151,9 @@ Active tab is bold with kanagawa palete primary color
 
 `incline.nvim` shows a filename tag with the corresponding icon in the top right corner of each pane + [+] when unsaved. The tab is hidden when the cursor reach the same line
 The active pane should make the tag colorized with primary color of Kanagawa palette
+
+
+### 2.6 Snacks
+
+- Words: the word is highlighted everywhere in the buffer, ]] and [[ allow me to cycle between occurences
+- Smooth scroll is **off**
