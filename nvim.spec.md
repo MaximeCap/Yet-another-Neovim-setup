@@ -157,3 +157,14 @@ The active pane should make the tag colorized with primary color of Kanagawa pal
 
 - Words: the word is highlighted everywhere in the buffer, ]] and [[ allow me to cycle between occurences
 - Smooth scroll is **off**
+
+
+## 3 Navigation
+
+### 3.1 Picker
+- `<leader>ff` or `<leader><leader>` open the file picker including hidden ones
+    - `<alt-i>` toggle git ignored files
+- `<leader>fb` open buffer picker
+- `<leader>fg` open the grep picker including hidden files
+- `<leader>fw` Open workspace symbols picker
+- `<leader>fs` Open current symbols picker
