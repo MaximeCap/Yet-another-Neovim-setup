@@ -142,5 +142,7 @@ One icon source for every plugin
 Each tab show the active window's file with its icon paddedd with **3** spaces.
 Active tab is bold with kanagawa palete primary color
 
+### 2.4 statusline
 
-
+- lualine, one globalbar, theme `auto` 
+    - x position: we can just keep the filetype and its icons
