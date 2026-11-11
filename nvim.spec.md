@@ -210,3 +210,49 @@ The active pane should make the tag colorized with primary color of Kanagawa pal
 - A FileType Autocmd starts highlighting and treesitter indent whenever a parser exists
 - `:TSUpdate` runs on `PackChanged` event.
     - Parsers stay in sync with the plugin version.
+
+### 4.2 Small highlights
+
+- `todo-comments.nvim` for highlighting TODO, WARN, FIXME with defaults
+- `nvim-highlight-color` paints hex, rgb, hsl, AINSI and css variable as background
+    - Neovim's LSP document color are turned off so colors aren't painted twice.
+
+
+## 5. Code Smarts
+
+### 5.1 Language servers
+
+- Mason + mason-tool-installer install on start, never auto-update
+- Servers to be update:
+```lua
+local tools = {
+  -- LSP servers
+  "lua_ls",
+  "gopls",
+  "ts_ls",
+  "tailwindcss",
+  "basedpyright",
+  "docker_language_server",
+  "yamlls",
+  "helm-ls",
+  "jsonls",
+  -- Linters
+  "eslint",
+  -- Formatters
+  "biome",
+  "stylua",
+  "ruff",
+  "prettier",
+  "prettierd",
+  "goimports",
+  "gofumpt",
+  "sqlfmt",
+  "pgformatter",
+  -- DAP
+  "delve",
+  "debugpy",
+}
+```
+
+
+- Every server get file-rename support (`didRename`/`willRename`)
