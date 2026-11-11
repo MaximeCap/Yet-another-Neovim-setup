@@ -168,3 +168,13 @@ The active pane should make the tag colorized with primary color of Kanagawa pal
 - `<leader>fg` open the grep picker including hidden files
 - `<leader>fw` Open workspace symbols picker
 - `<leader>fs` Open current symbols picker
+
+## 3.2 File explorer Pickers
+
+- Oil.nvim replace netrw and shows hidden files
+    - the directory is a buffer and so it use same command for renaming moving and delete files followed by `:w`
+- Columns: icon, modified time
+- Renaming a file asks the lsp to update imports and saves those edits automatically
+- In tabline 2.3, an oil tab shows its directory with no icons. Long path (more than 20) are cut from the left and replaced by ellipsis
+- `<leader>e` Open Oil as centered float with live preview with rounded corners
+- `q` closes oil
