@@ -113,7 +113,7 @@
 ### 1.8 Core keymaps
 
 `x` -> Delete without copying
-d, c and p prefixed by <leader> -> delete, change, paste without changing the yank register
+d and p prefixed by <leader> -> delete, paste without changing the yank register
 `+` / `-` -> increment and decrement numbers
 `<C-a>` -> Selected all
 `te` -> Open a new tab
@@ -274,3 +274,14 @@ local tools = {
 - Auto-brackets after functions. Docs popup after **200ms**
 - Menu items are colorized by Treesitter with kind icons from the shared icon set
 - In the command line, the menu open by itself for `:` commands only, with nothing preselected
+
+
+### 5.5 Lsp Keymap
+
+Use Snacks
+`gd` definition
+`gD` declaration
+`gy` type definition
+`gR` list reference
+`gi` to list implementation
+`<leader>ca` Code action

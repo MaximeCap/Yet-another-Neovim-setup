@@ -31,6 +31,25 @@ map("n", "<leader>fs", function()
 	Snacks.picker.lsp_symbols()
 end, { desc = "Document symbols" })
 
+-- LSP
+map("n", "gd", function()
+	Snacks.picker.lsp_definitions()
+end, { desc = "Go to definition" })
+map("n", "gD", function()
+	Snacks.picker.lsp_declarations()
+end, { desc = "Go to declaration" })
+map("n", "gy", function()
+	Snacks.picker.lsp_type_definitions()
+end, { desc = "Go to type definition" })
+map("n", "gR", function()
+	Snacks.picker.lsp_references()
+end, { desc = "References" })
+map("n", "gi", function()
+	Snacks.picker.lsp_implementations()
+end, { desc = "Implementations" })
+-- Snacks replaces vim.ui.select, so the actions open in its picker.
+map({ "n", "x" }, "<leader>ca", vim.lsp.buf.code_action, { desc = "Code action" })
+
 -- File explorer
 map("n", "<leader>e", function()
 	require("oil").open_float(nil, { preview = {} })

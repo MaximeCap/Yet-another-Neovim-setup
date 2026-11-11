@@ -3,7 +3,6 @@ local map = vim.keymap.set
 -- Registers
 map({ "n", "x" }, "x", '"_x', { desc = "Delete without copying" })
 map({ "n", "x" }, "<leader>d", '"_d', { desc = "Delete without copying" })
-map({ "n", "x" }, "<leader>c", '"_c', { desc = "Change without copying" })
 map("x", "<leader>p", '"_dP', { desc = "Paste without copying the replaced text" })
 
 -- Numbers
