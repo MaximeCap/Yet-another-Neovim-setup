@@ -120,5 +120,17 @@ d, c and p prefixed by <leader> -> delete, change, paste without changing the ya
 `Tab` and `Shift tab` -> cycle tabs
 `ss` and `sv` -> Split
 `sh`, `sj`, `sk`, `sl` -> Move between windows
+`jk` on insert mode for quickly get back to normal mode
+in terminal mode, `<C-x`> exit the terminal and get back to normal mode
+in visual mode, J and K move the selection up and down
+
+
+## 2 Look and feel
+
+### 2.1 Colorscheme
+
+- Kanagawa with `<leader>us` for switching between light and dark mode. The state must be saved and loaded between restart. transparent must be activated
+
+
 
 
