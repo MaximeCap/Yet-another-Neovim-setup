@@ -137,6 +137,10 @@ in visual mode, J and K move the selection up and down
 mini.icons, also mockin nvim-web-devicons
 One icon source for every plugin
 
+### 2.3 Tabline
+
+Each tab show the active window's file with its icon paddedd with **3** spaces.
+Active tab is bold with kanagawa palete primary color
 
 
 
