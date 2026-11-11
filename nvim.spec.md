@@ -132,5 +132,11 @@ in visual mode, J and K move the selection up and down
 - Kanagawa with `<leader>us` for switching between light and dark mode. The state must be saved and loaded between restart. transparent must be activated
 
 
+### 2.2 icons
+
+mini.icons, also mockin nvim-web-devicons
+One icon source for every plugin
+
+
 
 
