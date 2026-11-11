@@ -178,3 +178,35 @@ The active pane should make the tag colorized with primary color of Kanagawa pal
 - In tabline 2.3, an oil tab shows its directory with no icons. Long path (more than 20) are cut from the left and replaced by ellipsis
 - `<leader>e` Open Oil as centered float with live preview with rounded corners
 - `q` closes oil
+
+## 4. Syntax
+
+### 4.1 Tree sitter
+
+- nvim-treesitter, main branch
+- Ensures parsers
+    - markdown
+    - css
+    - diff
+    - go
+    - rust
+    - http
+    - (java|type)script
+    - jsdoc
+    - json
+    - helm
+    - yaml
+    - docker
+    - sql
+    - tsx
+    - python
+    - scss
+    - lua
+    - luadoc
+    - luap
+    - toml
+    - vim
+    - vimdoc
+- A FileType Autocmd starts highlighting and treesitter indent whenever a parser exists
+- `:TSUpdate` runs on `PackChanged` event.
+    - Parsers stay in sync with the plugin version.
