@@ -146,3 +146,8 @@ Active tab is bold with kanagawa palete primary color
 
 - lualine, one globalbar, theme `auto` 
     - x position: we can just keep the filetype and its icons
+
+### 2.5 Windows labels
+
+`incline.nvim` shows a filename tag with the corresponding icon in the top right corner of each pane + [+] when unsaved. The tab is hidden when the cursor reach the same line
+The active pane should make the tag colorized with primary color of Kanagawa palette
