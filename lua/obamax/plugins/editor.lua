@@ -16,3 +16,7 @@ require("oil").setup({
 	lsp_file_methods = { autosave_changes = true },
 	float = { border = "rounded" },
 })
+
+require("mini.pairs").setup({
+	modes = { insert = true, command = true },
+})

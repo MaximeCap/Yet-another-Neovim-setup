@@ -285,3 +285,7 @@ Use Snacks
 `gR` list reference
 `gi` to list implementation
 `<leader>ca` Code action
+
+### 5.6 Pairs
+
+use mini pairs with defaults in insert and command mode
