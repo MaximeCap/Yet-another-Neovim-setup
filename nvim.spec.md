@@ -293,3 +293,8 @@ use mini pairs with defaults in insert and command mode
 - lua: stylua
 - `:ToggleFormatter` turns format-on-save off or back on for the current buffer with a notification. The command live in `config/command.lua`
 
+## 6. Git
+
+### 6.1 Git Signs and blame
+
+- `gitsigns.nvim` with defaults

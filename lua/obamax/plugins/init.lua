@@ -29,6 +29,7 @@ vim.pack.add({
 	"https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim",
 	{ src = "https://github.com/saghen/blink.cmp", version = vim.version.range("^1") },
 	"https://github.com/stevearc/conform.nvim",
+	"https://github.com/lewis6991/gitsigns.nvim",
 })
 
 require("obamax.plugins.ui")
@@ -37,5 +38,6 @@ require("obamax.plugins.syntax")
 require("obamax.plugins.lsp")
 require("obamax.plugins.completion")
 require("obamax.plugins.formatting")
+require("obamax.plugins.git")
 
 require("obamax.plugins.keymaps")
